@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Feed Settings</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Search Tag</string>
+			<key>Key</key>
+			<string>PhotoFeedURLString</string>
+			<key>DefaultValue</key>
+			<string>https://api.flickr.com/services/feeds/photos_public.gne?tags=nature&amp;format=json&amp;nojsoncallback=1</string>
+			<key>Titles</key>
+			<array>
+				<string>Nature</string>
+				<string>Dogs</string>
+				<string>Buildings</string>
+				<string>Lakes</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>https://api.flickr.com/services/feeds/photos_public.gne?tags=nature&amp;format=json&amp;nojsoncallback=1</string>
+				<string>https://api.flickr.com/services/feeds/photos_public.gne?tags=dog&amp;format=json&amp;nojsoncallback=1</string>
+				<string>https://api.flickr.com/services/feeds/photos_public.gne?tags=building&amp;format=json&amp;nojsoncallback=1</string>
+				<string>https://api.flickr.com/services/feeds/photos_public.gne?tags=lake&amp;format=json&amp;nojsoncallback=1</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
